@@ -10,6 +10,15 @@ Start with installing dependencies
 yarn install
 ```
 
+Add required environment variables. I recommend using https://direnv.net/. If you are using direnv, create `.envrc` file and add the variables below.
+
+```
+export HARDHAT_TARGET_NETWORK=localhost
+export REPORT_GAS=1
+export ETHERSCAN_API_KEY=XXXX
+export INFURA_ID=XXXX
+```
+
 Then, start local hardhat chain
 
 ```shell
