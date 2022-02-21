@@ -16,10 +16,11 @@ Then, start local hardhat chain
 yarn chain
 ```
 
-Run the test or compile and deploy
+Run the test, get test coverage, compile and deploy
 
 ```shell
 yarn test
+yarn coverage
 yarn build
 yarn deploy
 ```
