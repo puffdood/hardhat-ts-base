@@ -41,7 +41,7 @@ yarn generate
 yarn account
 ```
 
-Deploy to testnet and verify. Sometimes you might need to re-compile with `clean`
+Deploy to testnet and verify. Sometimes you will need `clean` to force re-compilation for deployment or verification.
 
 ```shell
 yarn clean
