@@ -34,7 +34,7 @@ yarn build
 yarn deploy
 ```
 
-Create a folder called `generated` at the root of the project. Then, generate and show account
+Create a folder called `generated` at the root of the project. Then, generate and show account. This code is copy-pasted from scaffold-eth project.
 
 ```shell
 yarn generate
