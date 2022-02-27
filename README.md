@@ -34,16 +34,17 @@ yarn build
 yarn deploy
 ```
 
-Generate and show account
+Create a folder called `generated` at the root of the project. Then, generate and show account
 
 ```shell
 yarn generate
 yarn account
 ```
 
-Deploy to testnet and verify
+Deploy to testnet and verify. Sometimes you might need to re-compile with `clean`
 
 ```shell
+yarn clean
 yarn deploy --network rinkeby
 yarn verify --network rinkeby DEPLOYED_CONTRACT_ADDRESS "Constructor argument 1"
 ```
